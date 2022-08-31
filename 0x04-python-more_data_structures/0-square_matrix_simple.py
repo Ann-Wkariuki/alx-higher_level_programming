@@ -1,5 +1,3 @@
-quare_matrix_simple(matrix=[]):
-    matrix_square = []
-    for i in matrix:
-        matrix_square.append(list(map(lambda x: x * x, i)))
-    return (matrix_square)
+#!/usr/bin/python3
+def square_matrix_simple(matrix=[]):
+        return [list(map((lambda x: x * x), elm)) for elm in matrix]
